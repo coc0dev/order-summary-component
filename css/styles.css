@@ -1,0 +1,125 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+}
+
+.box {
+  height: 700px;
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 25px;
+}
+
+.hero-image {
+  border-radius: 25px 25px 0 0;
+  width: inherit;
+}
+
+h1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  margin: 40px 0 25px 0;
+}
+
+h3 {
+  font-weight: 700
+}
+
+p {
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 400;
+}
+
+.description {
+  margin: 0 50px 25px 50px;
+}
+
+/*  ----- payment box ----- */
+.payment-box {
+  width: 350px;
+  height: 100px;
+  align-items: center;
+  margin: 0 auto;
+  background-color: hsl(225, 100%, 96%);
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.payment-box img {
+  position: relative;
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.plan {
+  position: relative;
+  float: left;
+  margin: 25px 0 10px 10px;
+}
+
+.price {
+  position: fixed;
+  transform: translate(90px, 35px);
+  float: left;
+}
+
+.change-plan {
+  display: inline-block;
+  float: right;
+  font-weight: 900;
+  margin: 40px 25px 0 0;
+}
+
+.change-plan:hover {
+  text-decoration: none;
+  color: hsl(245, 50%, 60%);
+}
+/* ----- payment box ----- */
+
+.payment-button {
+  width: 350px;
+  height: 50px;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 12px;
+  border-style: none;
+  color: hsl(225, 100%, 98%);
+  font-size: 16px;
+  font-weight: 900;
+  margin: 25px;
+}
+
+.payment-button:hover {
+  background-color: hsl(245, 50%, 60%);
+}
+
+.cancel-order {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+}
+
+.cancel-order:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.footer {
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+  font-weight: 600;
+  color: hsl(223, 47%, 23%);
+}
+
+.footer a:hover {
+  color: hsl(245, 75%, 52%);
+}
